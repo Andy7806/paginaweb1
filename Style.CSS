@@ -4,6 +4,7 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
+    margin:auto;
 }
 
 @keyframes gradient {
@@ -69,13 +70,15 @@ body {
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {
-	margin: 1px auto 0;
+	margin: auto;
 	position: relative;
 	width: 800px;
 	height: 50px;
 	background-color: #34495e;
 	border-radius: 8px;
 	font-size: 0;
+    left: 0%;
+    right: 0%;
 }
 nav a {
 	line-height: 50px;
@@ -147,7 +150,7 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     background-color: hsl(240, 2%, 26%, 0.7);
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
-    border-radius: 1.2rem 0;
+    border-radius: 1.2rem;
     box-shadow: 0 5px 90px;
     margin: 2.5% auto;
     flex-wrap: wrap;
@@ -176,10 +179,12 @@ nav .start-contact, a:nth-child(5):hover~.animation {
     border: 3px solid #fff;
     width: 100px;
     height: 100px;
-    border-radius: 20%;
-    margin: 0 46% auto;
-    top: 26.9%;
+    border-radius: 10%;
+    margin: auto;
+    top: 26%;
     flex-wrap: wrap;
+    left: 0%;
+    right: 0%;
 }
 
 span {
@@ -246,12 +251,12 @@ span:nth-child(4) {
     background-color: hsl(240, 2%, 26%, 0.7);
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
-    border-radius: 1.2rem;
+    border-radius: 1rem;
     box-shadow: 0 5px 90px;
-    margin: 0 auto;
+    margin: auto;
     top: 27%;
     height: 70px;
-    width: 70rem;
+    width: 75rem;
     display: table;
     flex-wrap: wrap;
     top: 45%;
@@ -266,9 +271,274 @@ span:nth-child(4) {
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     margin: auto;
-    padding: 0.5rem;
+    padding: 0.7rem;
     text-align: center;
     text-align: justify;
     vertical-align: middle;
 }
 
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.round2 {
+    position:absolute;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: auto;
+    top: 70%;
+    flex-wrap: wrap;
+    left: 0%;
+    right: 0%;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round2:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round2:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round2:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round2:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.round3 {
+    position:absolute;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: auto;
+    top: 70%;
+    flex-wrap: wrap;
+    left: 0%;
+    right: 65%;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round3:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round3:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round3:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round3:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.round4 {
+    position:absolute;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin: auto;
+    top: 70%;
+    flex-wrap: wrap;
+    left: 65%;
+    right: 0%;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round4:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round4:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round4:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round4:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenedores{
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 86%;
+}
+
+.container_cuadros{
+    background-color: hsla(240, 2%, 26%, 0.863);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    padding: 7px;
+    margin: 2px;
+    height: 365px;
+    border-radius: 13px;
+}
+
+h1{
+    background-color: #241f25;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    padding: 13px 3px;
+    text-align: center;
+    border-radius: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+#parrafo{
+    text-align: center;
+    text-align: justify;
+    padding: 1.2%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
