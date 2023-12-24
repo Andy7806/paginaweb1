@@ -67,6 +67,47 @@ body {
     }
 }
 
+/*--------------------------RESPONSIVE DESIGN-------------------------------------------------------------------------*/
+
+@media screen and (min-width: 440px) and (max-width: 1077px){
+    .container1{
+        max-width: 440px;
+    }
+    
+    .container2{
+        max-width: 440px;
+    }
+
+    nav{
+        max-width: 810px;
+    }
+
+    .round{
+        max-width: 440px;
+    }
+    .round2{
+        max-width: 440px;
+    }
+    .round3{
+        max-width: 440px;
+    }
+    .round4{
+        max-width: 440px;
+    }
+    .contenedores{
+        max-width: 440px;
+    }
+    .container_cuadros{
+        max-width: 440px;
+    }
+    #parrafo{
+        max-width: 440px;
+    }
+    h1{
+        max-width: 440px;
+    }
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
 nav {
@@ -542,3 +583,6 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+
+
+
